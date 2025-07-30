@@ -3,7 +3,7 @@ mlflow
 notebook
 numpy
 scikit-learn
-python-box
+python-box[config]  # ✅ correct package for using ConfigBox
 pyYAML
 tqdm
 ensure

@@ -11,3 +11,14 @@ data_validation:
   root_dir: artifacts/data_validation
   data_file: artifacts/data_ingestion/winequality-red.csv
   status_file: artifacts/data_validation/status.txt
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path: /Users/saiaakash/Documents/mlops/DS_main/artifacts/data_ingestion/winequality-red.csv
+
+model_trainer:
+  root_dir: artifacts/model_trainer
+  train_path: artifacts/data_transformation/train.csv
+  test_path: artifacts/data_transformation/test.csv
+  model_name: model.joblib
+

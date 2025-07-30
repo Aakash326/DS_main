@@ -2,8 +2,6 @@ import os
 import urllib.request as request
 import zipfile
 from data_science import logger
-from data_science.utils.common import create_directories
-from pathlib import Path
 from data_science.entity.config_entity import DataIngestionConfig
 
 class DataIngestion:

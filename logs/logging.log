@@ -1,692 +1,957 @@
-[2025-07-28 09:08:51,477: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 09:08:51,477: ERROR: main]: 'DataIngestionTrainingPipeline' object has no attribute 'main'
-Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 8, in <module>
-    data_ingestion.main()
-AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'main'
-[2025-07-28 09:10:37,918: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 09:10:37,919: ERROR: main]: 'DataIngestionTrainingPipeline' object has no attribute 'main'
-Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 8, in <module>
-    data_ingestion.main()
-AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'main'
-[2025-07-28 09:12:16,911: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 09:12:16,912: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 09:12:16,913: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 09:12:16,914: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 09:12:16,917: INFO: common]: created directory at: artifacts
-[2025-07-28 09:12:16,917: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 09:12:17,322: ERROR: main]: HTTP Error 404: Not Found
-Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 8, in <module>
-    data_ingestion.main()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_01_data_ingestion.py", line 15, in main
-    data_ingestion.download_file()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/components/data_ingestion.py", line 15, in download_file
-    filename, headers = request.urlretrieve(
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 241, in urlretrieve
-    with contextlib.closing(urlopen(url, data)) as fp:
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 216, in urlopen
-    return opener.open(url, data, timeout)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 563, in error
-    return self._call_chain(*args)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 643, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-[2025-07-28 09:13:18,275: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 09:13:18,276: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 09:13:18,277: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 09:13:18,278: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 09:13:18,278: INFO: common]: created directory at: artifacts
-[2025-07-28 09:13:18,278: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 09:13:18,418: ERROR: main]: HTTP Error 404: Not Found
-Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 8, in <module>
-    data_ingestion.main()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_01_data_ingestion.py", line 15, in main
-    data_ingestion.download_file()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/components/data_ingestion.py", line 15, in download_file
-    filename, headers = request.urlretrieve(
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 241, in urlretrieve
-    with contextlib.closing(urlopen(url, data)) as fp:
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 216, in urlopen
-    return opener.open(url, data, timeout)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 563, in error
-    return self._call_chain(*args)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 643, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-[2025-07-28 09:16:16,668: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 09:16:16,670: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 09:16:16,671: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 09:16:16,672: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 09:16:16,672: INFO: common]: created directory at: artifacts
-[2025-07-28 09:16:16,672: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 09:16:16,672: INFO: data_ingestion]: Attempting to download file from: https://github.com/saiaakash/mlops_dataset/raw/main/winequality-red.zip
-[2025-07-28 09:16:17,070: ERROR: main]: HTTP Error 404: Not Found
-Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 8, in <module>
-    data_ingestion.main()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_01_data_ingestion.py", line 15, in main
-    data_ingestion.download_file()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/components/data_ingestion.py", line 16, in download_file
-    filename, headers = request.urlretrieve(
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 241, in urlretrieve
-    with contextlib.closing(urlopen(url, data)) as fp:
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 216, in urlopen
-    return opener.open(url, data, timeout)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 563, in error
-    return self._call_chain(*args)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 643, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-[2025-07-28 09:17:46,132: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 09:17:46,133: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 09:17:46,134: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 09:17:46,135: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 09:17:46,135: INFO: common]: created directory at: artifacts
-[2025-07-28 09:17:46,135: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 09:17:46,135: INFO: data_ingestion]: Attempting to download file from: https://github.com/krishnateja/DS_main/raw/main/winequality-red.zip
-[2025-07-28 09:17:46,634: ERROR: main]: HTTP Error 404: Not Found
-Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 8, in <module>
-    data_ingestion.main()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_01_data_ingestion.py", line 15, in main
-    data_ingestion.download_file()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/components/data_ingestion.py", line 16, in download_file
-    filename, headers = request.urlretrieve(
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 241, in urlretrieve
-    with contextlib.closing(urlopen(url, data)) as fp:
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 216, in urlopen
-    return opener.open(url, data, timeout)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 563, in error
-    return self._call_chain(*args)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/urllib/request.py", line 643, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-[2025-07-28 09:20:48,761: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 09:20:48,762: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 09:20:48,763: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 09:20:48,764: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 09:20:48,764: INFO: common]: created directory at: artifacts
-[2025-07-28 09:20:48,764: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 09:20:48,764: INFO: data_ingestion]: Attempting to download file from: https://github.com/krishnaik06/datasets/raw/refs/heads/main/winequality-data.zip
-[2025-07-28 09:20:49,495: INFO: data_ingestion]: artifacts/data_ingestion/data.zip downloaded with the following info: 
-Connection: close
-Content-Length: 23329
-Cache-Control: max-age=300
-Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-Content-Type: application/zip
-ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
-Strict-Transport-Security: max-age=31536000
-X-Content-Type-Options: nosniff
-X-Frame-Options: deny
-X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: 316B:0902:ED6E8:290A47:6886F35E
-Accept-Ranges: bytes
-Date: Mon, 28 Jul 2025 03:49:55 GMT
-Via: 1.1 varnish
-X-Served-By: cache-bom-vanm7210097-BOM
-X-Cache: MISS
-X-Cache-Hits: 0
-X-Timer: S1753674595.209015,VS0,VE209
-Vary: Authorization,Accept-Encoding
-Access-Control-Allow-Origin: *
-Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: 398383bb8f4a3e402097afb4d3922569a901c0f6
-Expires: Mon, 28 Jul 2025 03:54:55 GMT
-Source-Age: 0
-
-
-[2025-07-28 09:20:49,496: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+[2025-07-30 08:08:19,655: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2025-07-30 08:08:19,657: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:08:19,658: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:08:19,659: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:08:19,660: INFO: common]: created directory at: artifacts
+[2025-07-30 08:08:19,660: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-07-30 08:08:19,660: INFO: data_ingestion]: File already exists of size: 23329
+[2025-07-30 08:08:19,662: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x
-[2025-07-28 11:46:16,332: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 11:46:16,334: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:46:16,335: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:46:16,336: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:46:16,337: INFO: common]: created directory at: artifacts
-[2025-07-28 11:46:16,337: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 11:46:16,337: INFO: data_ingestion]: File already exists of size: 23329
-[2025-07-28 11:46:16,338: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+[2025-07-30 08:08:19,662: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-07-30 08:08:19,663: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:08:19,663: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:08:19,664: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:08:19,664: INFO: common]: created directory at: artifacts
+[2025-07-30 08:08:19,664: INFO: common]: created directory at: artifacts/data_validation
+[2025-07-30 08:08:19,672: INFO: data_validation]: Data validation status: True
+[2025-07-30 08:08:19,672: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x
-[2025-07-28 11:46:16,339: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
-[2025-07-28 11:46:16,339: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:46:16,339: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:46:16,340: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:46:16,340: INFO: common]: created directory at: artifacts
-[2025-07-28 11:46:16,340: INFO: common]: created directory at: artifacts/data_validation
-[2025-07-28 11:46:16,340: ERROR: main]: "'ConfigBox' object has no attribute 'data_file'"
+[2025-07-30 08:11:38,564: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2025-07-30 08:11:38,565: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:11:38,567: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:11:38,567: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:11:38,568: INFO: common]: created directory at: artifacts
+[2025-07-30 08:11:38,568: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-07-30 08:11:38,568: INFO: data_ingestion]: File already exists of size: 23329
+[2025-07-30 08:11:38,569: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:11:38,569: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-07-30 08:11:38,570: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:11:38,570: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:11:38,571: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:11:38,571: INFO: common]: created directory at: artifacts
+[2025-07-30 08:11:38,571: INFO: common]: created directory at: artifacts/data_validation
+[2025-07-30 08:11:38,576: INFO: data_validation]: Data validation status: True
+[2025-07-30 08:11:38,577: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:11:38,577: INFO: main]: >>>>>> stage Data Transformation stage started <<<<<<
+[2025-07-30 08:11:38,577: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:11:38,578: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:11:38,578: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:11:38,578: INFO: common]: created directory at: artifacts
+[2025-07-30 08:11:38,579: INFO: common]: created directory at: artifacts/data_transformation
+[2025-07-30 08:11:38,579: ERROR: stage_03_data_transformation]: "'ConfigBox' object has no attribute 'data_path'"
 Traceback (most recent call last):
   File "box/box.py", line 594, in box.box.Box.__getitem__
-KeyError: 'data_file'
+KeyError: 'data_path'
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
   File "box/box.py", line 633, in box.box.Box.__getattr__
   File "box/box.py", line 621, in box.box.Box.__getitem__
-box.exceptions.BoxKeyError: "'data_file'"
+box.exceptions.BoxKeyError: "'data_path'"
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "box/box.py", line 635, in box.box.Box.__getattr__
-AttributeError: 'ConfigBox' object has no attribute 'data_file'
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
   File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
   File "box/box.py", line 649, in box.box.Box.__getattr__
-box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_file'"
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "box/box.py", line 594, in box.box.Box.__getitem__
-KeyError: 'data_file'
+KeyError: 'data_path'
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
   File "box/box.py", line 633, in box.box.Box.__getattr__
   File "box/box.py", line 621, in box.box.Box.__getitem__
-box.exceptions.BoxKeyError: "'data_file'"
+box.exceptions.BoxKeyError: "'data_path'"
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "box/box.py", line 635, in box.box.Box.__getattr__
-AttributeError: 'ConfigBox' object has no attribute 'data_file'
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 19, in <module>
-    data_validation.main()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_02_data_validation.py", line 13, in main
-    data_validation_config = config.get_data_validation_config()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 41, in get_data_validation_config
-    data_file=config.data_file,
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 56, in get_data_transformation_config
+    data_path=config.data_path
   File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
   File "box/box.py", line 649, in box.box.Box.__getattr__
-box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_file'"
-[2025-07-28 11:48:19,101: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 11:48:19,104: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:48:19,106: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:48:19,107: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:48:19,107: INFO: common]: created directory at: artifacts
-[2025-07-28 11:48:19,108: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 11:48:19,108: INFO: data_ingestion]: File already exists of size: 23329
-[2025-07-28 11:48:19,110: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
-
-x==========x
-[2025-07-28 11:48:19,110: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
-[2025-07-28 11:48:19,111: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:48:19,111: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:48:19,111: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:48:19,112: INFO: common]: created directory at: artifacts
-[2025-07-28 11:48:19,112: ERROR: main]: "'ConfigBox' object has no attribute 'delimiter'"
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+[2025-07-30 08:11:38,579: ERROR: main]: "'ConfigBox' object has no attribute 'data_path'"
 Traceback (most recent call last):
   File "box/box.py", line 594, in box.box.Box.__getitem__
-KeyError: 'DELIMITER'
+KeyError: 'data_path'
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
   File "box/box.py", line 633, in box.box.Box.__getattr__
   File "box/box.py", line 621, in box.box.Box.__getitem__
-box.exceptions.BoxKeyError: "'DELIMITER'"
+box.exceptions.BoxKeyError: "'data_path'"
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "box/box.py", line 635, in box.box.Box.__getattr__
-AttributeError: 'ConfigBox' object has no attribute 'DELIMITER'
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
   File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
   File "box/box.py", line 649, in box.box.Box.__getattr__
-box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'DELIMITER'"
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "box/box.py", line 594, in box.box.Box.__getitem__
-KeyError: 'delimiter'
+KeyError: 'data_path'
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
   File "box/box.py", line 633, in box.box.Box.__getattr__
   File "box/box.py", line 621, in box.box.Box.__getitem__
-box.exceptions.BoxKeyError: "'delimiter'"
+box.exceptions.BoxKeyError: "'data_path'"
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "box/box.py", line 635, in box.box.Box.__getattr__
-AttributeError: 'ConfigBox' object has no attribute 'delimiter'
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 19, in <module>
-    data_validation.main()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_02_data_validation.py", line 13, in main
-    data_validation_config = config.get_data_validation_config()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 36, in get_data_validation_config
-    delimiter = self.schema.DELIMITER
-  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
-  File "box/box.py", line 649, in box.box.Box.__getattr__
-box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'delimiter'"
-[2025-07-28 11:49:46,963: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 11:49:46,966: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:49:46,967: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:49:46,968: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:49:46,968: INFO: common]: created directory at: artifacts
-[2025-07-28 11:49:46,968: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 11:49:46,968: INFO: data_ingestion]: File already exists of size: 23329
-[2025-07-28 11:49:46,970: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
-
-x==========x
-[2025-07-28 11:49:46,970: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
-[2025-07-28 11:49:46,971: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:49:46,971: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:49:46,972: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:49:46,972: INFO: common]: created directory at: artifacts
-[2025-07-28 11:49:46,972: INFO: common]: created directory at: artifacts/data_validation
-[2025-07-28 11:49:46,972: ERROR: main]: "'ConfigBox' object has no attribute 'data_file'"
-Traceback (most recent call last):
-  File "box/box.py", line 594, in box.box.Box.__getitem__
-KeyError: 'data_file'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "box/box.py", line 633, in box.box.Box.__getattr__
-  File "box/box.py", line 621, in box.box.Box.__getitem__
-box.exceptions.BoxKeyError: "'data_file'"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "box/box.py", line 635, in box.box.Box.__getattr__
-AttributeError: 'ConfigBox' object has no attribute 'data_file'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
-  File "box/box.py", line 649, in box.box.Box.__getattr__
-box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_file'"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "box/box.py", line 594, in box.box.Box.__getitem__
-KeyError: 'data_file'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "box/box.py", line 633, in box.box.Box.__getattr__
-  File "box/box.py", line 621, in box.box.Box.__getitem__
-box.exceptions.BoxKeyError: "'data_file'"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "box/box.py", line 635, in box.box.Box.__getattr__
-AttributeError: 'ConfigBox' object has no attribute 'data_file'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 19, in <module>
-    data_validation.main()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_02_data_validation.py", line 13, in main
-    data_validation_config = config.get_data_validation_config()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 42, in get_data_validation_config
-    data_file=config.data_file,
-  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
-  File "box/box.py", line 649, in box.box.Box.__getattr__
-box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_file'"
-[2025-07-28 11:50:33,741: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 11:50:33,744: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:50:33,746: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:50:33,747: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:50:33,747: INFO: common]: created directory at: artifacts
-[2025-07-28 11:50:33,747: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 11:50:33,747: INFO: data_ingestion]: File already exists of size: 23329
-[2025-07-28 11:50:33,749: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
-
-x==========x
-[2025-07-28 11:50:33,750: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
-[2025-07-28 11:50:33,751: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:50:33,751: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:50:33,754: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:50:33,754: INFO: common]: created directory at: artifacts
-[2025-07-28 11:50:33,754: INFO: common]: created directory at: artifacts/data_validation
-[2025-07-28 11:50:33,755: ERROR: main]: "'ConfigBox' object has no attribute 'data_file'"
-Traceback (most recent call last):
-  File "box/box.py", line 594, in box.box.Box.__getitem__
-KeyError: 'data_file'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "box/box.py", line 633, in box.box.Box.__getattr__
-  File "box/box.py", line 621, in box.box.Box.__getitem__
-box.exceptions.BoxKeyError: "'data_file'"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "box/box.py", line 635, in box.box.Box.__getattr__
-AttributeError: 'ConfigBox' object has no attribute 'data_file'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
-  File "box/box.py", line 649, in box.box.Box.__getattr__
-box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_file'"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "box/box.py", line 594, in box.box.Box.__getitem__
-KeyError: 'data_file'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "box/box.py", line 633, in box.box.Box.__getattr__
-  File "box/box.py", line 621, in box.box.Box.__getitem__
-box.exceptions.BoxKeyError: "'data_file'"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "box/box.py", line 635, in box.box.Box.__getattr__
-AttributeError: 'ConfigBox' object has no attribute 'data_file'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 19, in <module>
-    data_validation.main()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_02_data_validation.py", line 13, in main
-    data_validation_config = config.get_data_validation_config()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 42, in get_data_validation_config
-    data_file=config.data_file,
-  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
-  File "box/box.py", line 649, in box.box.Box.__getattr__
-box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_file'"
-[2025-07-28 11:52:50,296: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 11:52:50,298: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:52:50,300: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:52:50,301: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:52:50,301: INFO: common]: created directory at: artifacts
-[2025-07-28 11:52:50,301: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 11:52:50,301: INFO: data_ingestion]: File already exists of size: 23329
-[2025-07-28 11:52:50,303: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
-
-x==========x
-[2025-07-28 11:52:50,303: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
-[2025-07-28 11:52:50,304: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:52:50,304: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:52:50,305: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:52:50,305: INFO: common]: created directory at: artifacts
-[2025-07-28 11:52:50,305: INFO: common]: created directory at: artifacts/data_validation
-[2025-07-28 11:52:50,305: ERROR: main]: "'ConfigBox' object has no attribute 'data_file'"
-Traceback (most recent call last):
-  File "box/box.py", line 594, in box.box.Box.__getitem__
-KeyError: 'data_file'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "box/box.py", line 633, in box.box.Box.__getattr__
-  File "box/box.py", line 621, in box.box.Box.__getitem__
-box.exceptions.BoxKeyError: "'data_file'"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "box/box.py", line 635, in box.box.Box.__getattr__
-AttributeError: 'ConfigBox' object has no attribute 'data_file'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
-  File "box/box.py", line 649, in box.box.Box.__getattr__
-box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_file'"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "box/box.py", line 594, in box.box.Box.__getitem__
-KeyError: 'data_file'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "box/box.py", line 633, in box.box.Box.__getattr__
-  File "box/box.py", line 621, in box.box.Box.__getitem__
-box.exceptions.BoxKeyError: "'data_file'"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "box/box.py", line 635, in box.box.Box.__getattr__
-AttributeError: 'ConfigBox' object has no attribute 'data_file'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 19, in <module>
-    data_validation.main()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_02_data_validation.py", line 13, in main
-    data_validation_config = config.get_data_validation_config()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 42, in get_data_validation_config
-    data_file=config.data_file,
-  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
-  File "box/box.py", line 649, in box.box.Box.__getattr__
-box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_file'"
-[2025-07-28 11:54:26,022: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 11:54:26,025: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:54:26,026: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:54:26,027: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:54:26,027: INFO: common]: created directory at: artifacts
-[2025-07-28 11:54:26,027: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 11:54:26,027: INFO: data_ingestion]: File already exists of size: 23329
-[2025-07-28 11:54:26,028: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
-
-x==========x
-[2025-07-28 11:54:26,028: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
-[2025-07-28 11:54:26,029: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:54:26,029: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:54:26,030: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:54:26,030: INFO: common]: created directory at: artifacts
-[2025-07-28 11:54:26,030: INFO: common]: created directory at: artifacts/data_validation
-[2025-07-28 11:54:26,030: ERROR: data_validation]: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-data/winequality.csv'
-Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/components/data_validation.py", line 12, in validate_all_columns
-    data = pd.read_csv(self.config.data_file, sep=self.config.delimiter)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-data/winequality.csv'
-[2025-07-28 11:54:26,032: ERROR: main]: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-data/winequality.csv'
-Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 19, in <module>
-    data_validation.main()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_02_data_validation.py", line 15, in main
-    data_validation.validate_all_columns()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/components/data_validation.py", line 39, in validate_all_columns
+  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 12, in run_stage
+    pipeline.main()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 24, in main
     raise e
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/components/data_validation.py", line 12, in validate_all_columns
-    data = pd.read_csv(self.config.data_file, sep=self.config.delimiter)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-data/winequality.csv'
-[2025-07-28 11:55:30,275: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 11:55:30,278: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:55:30,279: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:55:30,279: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:55:30,280: INFO: common]: created directory at: artifacts
-[2025-07-28 11:55:30,280: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 11:55:30,280: INFO: data_ingestion]: File already exists of size: 23329
-[2025-07-28 11:55:30,281: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 56, in get_data_transformation_config
+    data_path=config.data_path
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+[2025-07-30 08:14:09,408: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2025-07-30 08:14:09,411: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:14:09,412: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:14:09,413: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:14:09,413: INFO: common]: created directory at: artifacts
+[2025-07-30 08:14:09,413: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-07-30 08:14:09,413: INFO: data_ingestion]: File already exists of size: 23329
+[2025-07-30 08:14:09,415: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x
-[2025-07-28 11:55:30,281: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
-[2025-07-28 11:55:30,282: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:55:30,282: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:55:30,283: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:55:30,283: INFO: common]: created directory at: artifacts
-[2025-07-28 11:55:30,283: INFO: common]: created directory at: artifacts/data_validation
-[2025-07-28 11:55:30,283: ERROR: data_validation]: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-data/winequality.csv'
+[2025-07-30 08:14:09,415: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-07-30 08:14:09,416: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:14:09,416: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:14:09,417: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:14:09,417: INFO: common]: created directory at: artifacts
+[2025-07-30 08:14:09,417: INFO: common]: created directory at: artifacts/data_validation
+[2025-07-30 08:14:09,425: INFO: data_validation]: Data validation status: True
+[2025-07-30 08:14:09,426: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:14:09,426: INFO: main]: >>>>>> stage Data Transformation stage started <<<<<<
+[2025-07-30 08:14:09,426: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:14:09,427: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:14:09,427: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:14:09,428: INFO: common]: created directory at: artifacts
+[2025-07-30 08:14:09,428: INFO: common]: created directory at: artifacts/data_transformation
+[2025-07-30 08:14:09,428: ERROR: stage_03_data_transformation]: "'ConfigBox' object has no attribute 'data_path'"
 Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/components/data_validation.py", line 12, in validate_all_columns
-    data = pd.read_csv(self.config.data_file, sep=self.config.delimiter)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-data/winequality.csv'
-[2025-07-28 11:55:30,285: ERROR: main]: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-data/winequality.csv'
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
 Traceback (most recent call last):
-  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 19, in <module>
-    data_validation.main()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_02_data_validation.py", line 15, in main
-    data_validation.validate_all_columns()
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/components/data_validation.py", line 39, in validate_all_columns
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 56, in get_data_transformation_config
+    data_path=config.data_path
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+[2025-07-30 08:14:09,428: ERROR: main]: "'ConfigBox' object has no attribute 'data_path'"
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 12, in run_stage
+    pipeline.main()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 24, in main
     raise e
-  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/components/data_validation.py", line 12, in validate_all_columns
-    data = pd.read_csv(self.config.data_file, sep=self.config.delimiter)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/opt/anaconda3/envs/mlpipe/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-data/winequality.csv'
-[2025-07-28 11:56:00,114: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 11:56:00,116: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:56:00,116: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:56:00,117: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:56:00,117: INFO: common]: created directory at: artifacts
-[2025-07-28 11:56:00,117: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 11:56:00,117: INFO: data_ingestion]: File already exists of size: 23329
-[2025-07-28 11:56:00,118: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 56, in get_data_transformation_config
+    data_path=config.data_path
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+[2025-07-30 08:14:30,381: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2025-07-30 08:14:30,382: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:14:30,384: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:14:30,385: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:14:30,385: INFO: common]: created directory at: artifacts
+[2025-07-30 08:14:30,385: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-07-30 08:14:30,385: INFO: data_ingestion]: File already exists of size: 23329
+[2025-07-30 08:14:30,386: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x
-[2025-07-28 11:56:00,118: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
-[2025-07-28 11:56:00,119: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:56:00,119: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:56:00,120: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:56:00,120: INFO: common]: created directory at: artifacts
-[2025-07-28 11:56:00,120: INFO: common]: created directory at: artifacts/data_validation
-[2025-07-28 11:56:00,125: WARNING: data_validation]: Column mismatch. Data columns: {'fixed acidity,volatile acidity,citric acid,residual sugar,chlorides,free sulfur dioxide,total sulfur dioxide,density,pH,sulphates,alcohol,quality'}, Schema columns: {'chlorides', 'pH', 'residual sugar', 'sulphates', 'alcohol', 'citric acid', 'free sulfur dioxide', 'total sulfur dioxide', 'fixed acidity', 'volatile acidity', 'density'}
-[2025-07-28 11:56:00,125: INFO: data_validation]: Data validation status: False
-[2025-07-28 11:56:00,125: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
+[2025-07-30 08:14:30,386: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-07-30 08:14:30,387: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:14:30,387: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:14:30,388: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:14:30,388: INFO: common]: created directory at: artifacts
+[2025-07-30 08:14:30,388: INFO: common]: created directory at: artifacts/data_validation
+[2025-07-30 08:14:30,393: INFO: data_validation]: Data validation status: True
+[2025-07-30 08:14:30,393: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x
-[2025-07-28 11:57:52,855: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 11:57:52,857: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:57:52,857: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:57:52,858: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:57:52,858: INFO: common]: created directory at: artifacts
-[2025-07-28 11:57:52,858: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 11:57:52,858: INFO: data_ingestion]: File already exists of size: 23329
-[2025-07-28 11:57:52,860: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+[2025-07-30 08:14:30,393: INFO: main]: >>>>>> stage Data Transformation stage started <<<<<<
+[2025-07-30 08:14:30,394: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:14:30,394: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:14:30,395: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:14:30,395: INFO: common]: created directory at: artifacts
+[2025-07-30 08:14:30,395: INFO: common]: created directory at: artifacts/data_transformation
+[2025-07-30 08:14:30,395: ERROR: stage_03_data_transformation]: "'ConfigBox' object has no attribute 'data_path'"
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 56, in get_data_transformation_config
+    data_path=config.data_path
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+[2025-07-30 08:14:30,395: ERROR: main]: "'ConfigBox' object has no attribute 'data_path'"
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 12, in run_stage
+    pipeline.main()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 24, in main
+    raise e
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 56, in get_data_transformation_config
+    data_path=config.data_path
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+[2025-07-30 08:15:15,233: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2025-07-30 08:15:15,235: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:15:15,236: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:15:15,236: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:15:15,236: INFO: common]: created directory at: artifacts
+[2025-07-30 08:15:15,237: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-07-30 08:15:15,237: INFO: data_ingestion]: File already exists of size: 23329
+[2025-07-30 08:15:15,238: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x
-[2025-07-28 11:57:52,860: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
-[2025-07-28 11:57:52,860: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:57:52,861: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:57:52,861: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:57:52,861: INFO: common]: created directory at: artifacts
-[2025-07-28 11:57:52,862: INFO: common]: created directory at: artifacts/data_validation
-[2025-07-28 11:57:52,866: WARNING: data_validation]: Column mismatch. Data columns: {'fixed acidity', 'volatile acidity', 'chlorides', 'free sulfur dioxide', 'sulphates', 'residual sugar', 'density', 'alcohol', 'quality', 'pH', 'citric acid', 'total sulfur dioxide'}, Schema columns: {'fixed acidity', 'volatile acidity', 'chlorides', 'free sulfur dioxide', 'sulphates', 'residual sugar', 'density', 'alcohol', 'pH', 'citric acid', 'total sulfur dioxide'}
-[2025-07-28 11:57:52,866: INFO: data_validation]: Data validation status: False
-[2025-07-28 11:57:52,866: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
+[2025-07-30 08:15:15,238: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-07-30 08:15:15,238: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:15:15,239: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:15:15,240: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:15:15,240: INFO: common]: created directory at: artifacts
+[2025-07-30 08:15:15,240: INFO: common]: created directory at: artifacts/data_validation
+[2025-07-30 08:15:15,244: INFO: data_validation]: Data validation status: True
+[2025-07-30 08:15:15,244: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x
-[2025-07-28 11:58:31,119: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
-[2025-07-28 11:58:31,121: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:58:31,122: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:58:31,122: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:58:31,123: INFO: common]: created directory at: artifacts
-[2025-07-28 11:58:31,123: INFO: common]: created directory at: artifacts/data_ingestion
-[2025-07-28 11:58:31,123: INFO: data_ingestion]: File already exists of size: 23329
-[2025-07-28 11:58:31,124: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+[2025-07-30 08:15:15,244: INFO: main]: >>>>>> stage Data Transformation stage started <<<<<<
+[2025-07-30 08:15:15,245: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:15:15,245: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:15:15,246: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:15:15,246: INFO: common]: created directory at: artifacts
+[2025-07-30 08:15:15,246: INFO: common]: created directory at: artifacts/data_transformation
+[2025-07-30 08:15:15,246: ERROR: stage_03_data_transformation]: "'ConfigBox' object has no attribute 'data_path'"
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 56, in get_data_transformation_config
+    data_path=config.data_path
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+[2025-07-30 08:15:15,247: ERROR: main]: "'ConfigBox' object has no attribute 'data_path'"
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 12, in run_stage
+    pipeline.main()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 24, in main
+    raise e
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 56, in get_data_transformation_config
+    data_path=config.data_path
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+[2025-07-30 08:17:33,621: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2025-07-30 08:17:33,623: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:17:33,624: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:17:33,625: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:17:33,625: INFO: common]: created directory at: artifacts
+[2025-07-30 08:17:33,625: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-07-30 08:17:33,625: INFO: data_ingestion]: File already exists of size: 23329
+[2025-07-30 08:17:33,626: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x
-[2025-07-28 11:58:31,124: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
-[2025-07-28 11:58:31,125: INFO: common]: yaml file: config/config.yaml loaded successfully
-[2025-07-28 11:58:31,125: INFO: common]: yaml file: params.yaml loaded successfully
-[2025-07-28 11:58:31,126: INFO: common]: yaml file: schema.yaml loaded successfully
-[2025-07-28 11:58:31,127: INFO: common]: created directory at: artifacts
-[2025-07-28 11:58:31,127: INFO: common]: created directory at: artifacts/data_validation
-[2025-07-28 11:58:31,130: INFO: data_validation]: Data validation status: True
-[2025-07-28 11:58:31,130: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
+[2025-07-30 08:17:33,626: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-07-30 08:17:33,627: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:17:33,627: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:17:33,628: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:17:33,628: INFO: common]: created directory at: artifacts
+[2025-07-30 08:17:33,628: INFO: common]: created directory at: artifacts/data_validation
+[2025-07-30 08:17:33,634: INFO: data_validation]: Data validation status: True
+[2025-07-30 08:17:33,634: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:17:33,634: INFO: main]: >>>>>> stage Data Transformation stage started <<<<<<
+[2025-07-30 08:17:33,635: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:17:33,635: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:17:33,636: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:17:33,636: INFO: common]: created directory at: artifacts
+[2025-07-30 08:17:33,636: INFO: common]: created directory at: artifacts/data_transformation
+[2025-07-30 08:17:33,636: ERROR: stage_03_data_transformation]: "'ConfigBox' object has no attribute 'data_path'"
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 56, in get_data_transformation_config
+    data_path=config.data_path
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+[2025-07-30 08:17:33,637: ERROR: main]: "'ConfigBox' object has no attribute 'data_path'"
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_path'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 12, in run_stage
+    pipeline.main()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 24, in main
+    raise e
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 56, in get_data_transformation_config
+    data_path=config.data_path
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_path'"
+[2025-07-30 08:18:57,177: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2025-07-30 08:18:57,178: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:18:57,179: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:18:57,180: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:18:57,180: INFO: common]: created directory at: artifacts
+[2025-07-30 08:18:57,180: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-07-30 08:18:57,180: INFO: data_ingestion]: File already exists of size: 23329
+[2025-07-30 08:18:57,181: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:18:57,182: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-07-30 08:18:57,182: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:18:57,183: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:18:57,183: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:18:57,183: INFO: common]: created directory at: artifacts
+[2025-07-30 08:18:57,184: INFO: common]: created directory at: artifacts/data_validation
+[2025-07-30 08:18:57,189: INFO: data_validation]: Data validation status: True
+[2025-07-30 08:18:57,189: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:18:57,189: INFO: main]: >>>>>> stage Data Transformation stage started <<<<<<
+[2025-07-30 08:18:57,190: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:18:57,190: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:18:57,191: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:18:57,191: INFO: common]: created directory at: artifacts
+[2025-07-30 08:18:57,191: INFO: common]: created directory at: artifacts/data_transformation
+[2025-07-30 08:18:57,191: ERROR: stage_03_data_transformation]: DataTransformationConfig.__init__() got an unexpected keyword argument 'data_file'
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 54, in get_data_transformation_config
+    data_transformation_config = DataTransformationConfig(
+TypeError: DataTransformationConfig.__init__() got an unexpected keyword argument 'data_file'
+[2025-07-30 08:18:57,191: ERROR: main]: DataTransformationConfig.__init__() got an unexpected keyword argument 'data_file'
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 12, in run_stage
+    pipeline.main()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 24, in main
+    raise e
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 54, in get_data_transformation_config
+    data_transformation_config = DataTransformationConfig(
+TypeError: DataTransformationConfig.__init__() got an unexpected keyword argument 'data_file'
+[2025-07-30 08:26:00,011: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2025-07-30 08:26:00,012: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:26:00,013: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:26:00,014: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:26:00,014: INFO: common]: created directory at: artifacts
+[2025-07-30 08:26:00,014: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-07-30 08:26:00,014: INFO: data_ingestion]: File already exists of size: 23329
+[2025-07-30 08:26:00,015: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:26:00,015: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-07-30 08:26:00,016: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:26:00,016: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:26:00,017: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:26:00,017: INFO: common]: created directory at: artifacts
+[2025-07-30 08:26:00,017: INFO: common]: created directory at: artifacts/data_validation
+[2025-07-30 08:26:00,022: INFO: data_validation]: Data validation status: True
+[2025-07-30 08:26:00,022: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:26:00,022: INFO: main]: >>>>>> stage Data Transformation stage started <<<<<<
+[2025-07-30 08:26:00,023: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:26:00,024: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:26:00,024: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:26:00,025: INFO: common]: created directory at: artifacts
+[2025-07-30 08:26:00,025: INFO: common]: created directory at: artifacts/data_transformation
+[2025-07-30 08:26:00,025: ERROR: stage_03_data_transformation]: DataTransformationConfig.__init__() got an unexpected keyword argument 'data_file'
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 54, in get_data_transformation_config
+    data_transformation_config = DataTransformationConfig(
+TypeError: DataTransformationConfig.__init__() got an unexpected keyword argument 'data_file'
+[2025-07-30 08:26:00,025: ERROR: main]: DataTransformationConfig.__init__() got an unexpected keyword argument 'data_file'
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 12, in run_stage
+    pipeline.main()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 24, in main
+    raise e
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 54, in get_data_transformation_config
+    data_transformation_config = DataTransformationConfig(
+TypeError: DataTransformationConfig.__init__() got an unexpected keyword argument 'data_file'
+[2025-07-30 08:28:40,033: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2025-07-30 08:28:40,034: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:28:40,035: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:28:40,036: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:28:40,036: INFO: common]: created directory at: artifacts
+[2025-07-30 08:28:40,036: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-07-30 08:28:40,036: INFO: data_ingestion]: File already exists of size: 23329
+[2025-07-30 08:28:40,038: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:28:40,038: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-07-30 08:28:40,038: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:28:40,039: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:28:40,039: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:28:40,040: INFO: common]: created directory at: artifacts
+[2025-07-30 08:28:40,040: INFO: common]: created directory at: artifacts/data_validation
+[2025-07-30 08:28:40,046: INFO: data_validation]: Data validation status: True
+[2025-07-30 08:28:40,046: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:28:40,046: INFO: main]: >>>>>> stage Data Transformation stage started <<<<<<
+[2025-07-30 08:28:40,047: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:28:40,047: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:28:40,048: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:28:40,048: INFO: common]: created directory at: artifacts
+[2025-07-30 08:28:40,048: INFO: common]: created directory at: artifacts/data_transformation
+[2025-07-30 08:28:40,048: ERROR: stage_03_data_transformation]: "'Box' object has no attribute 'data_file'"
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_file'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_file'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'Box' object has no attribute 'data_file'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 56, in get_data_transformation_config
+    data_file=config.data_file
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'Box' object has no attribute 'data_file'"
+[2025-07-30 08:28:40,049: ERROR: main]: "'Box' object has no attribute 'data_file'"
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_file'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_file'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'Box' object has no attribute 'data_file'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/saiaakash/Documents/mlops/DS_main/main.py", line 12, in run_stage
+    pipeline.main()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 24, in main
+    raise e
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/pipeline/stage_03_data_transformation.py", line 17, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "/Users/saiaakash/Documents/mlops/DS_main/src/data_science/config/configuration.py", line 56, in get_data_transformation_config
+    data_file=config.data_file
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'Box' object has no attribute 'data_file'"
+[2025-07-30 08:30:06,000: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2025-07-30 08:30:06,001: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:30:06,002: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:30:06,003: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:30:06,003: INFO: common]: created directory at: artifacts
+[2025-07-30 08:30:06,003: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-07-30 08:30:06,003: INFO: data_ingestion]: File already exists of size: 23329
+[2025-07-30 08:30:06,005: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:30:06,005: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-07-30 08:30:06,006: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:30:06,007: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:30:06,008: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:30:06,008: INFO: common]: created directory at: artifacts
+[2025-07-30 08:30:06,008: INFO: common]: created directory at: artifacts/data_validation
+[2025-07-30 08:30:06,012: INFO: data_validation]: Data validation status: True
+[2025-07-30 08:30:06,012: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:30:06,013: INFO: main]: >>>>>> stage Data Transformation stage started <<<<<<
+[2025-07-30 08:30:06,013: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:30:06,014: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:30:06,014: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:30:06,015: INFO: common]: created directory at: artifacts
+[2025-07-30 08:30:06,015: INFO: common]: created directory at: artifacts/data_transformation
+[2025-07-30 08:30:06,025: INFO: data_transformation]: Splited data into training and test sets
+[2025-07-30 08:30:06,025: INFO: data_transformation]: (1279, 12)
+[2025-07-30 08:30:06,025: INFO: data_transformation]: (320, 12)
+[2025-07-30 08:30:06,026: INFO: main]: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:54:08,408: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2025-07-30 08:54:08,411: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:54:08,412: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:54:08,413: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:54:08,413: INFO: common]: created directory at: artifacts
+[2025-07-30 08:54:08,413: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-07-30 08:54:08,413: INFO: data_ingestion]: File already exists of size: 23329
+[2025-07-30 08:54:08,415: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:54:08,415: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-07-30 08:54:08,416: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:54:08,416: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:54:08,417: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:54:08,418: INFO: common]: created directory at: artifacts
+[2025-07-30 08:54:08,418: INFO: common]: created directory at: artifacts/data_validation
+[2025-07-30 08:54:08,425: INFO: data_validation]: Data validation status: True
+[2025-07-30 08:54:08,425: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:54:08,425: INFO: main]: >>>>>> stage Data Transformation stage started <<<<<<
+[2025-07-30 08:54:08,427: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:54:08,427: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:54:08,428: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:54:08,428: INFO: common]: created directory at: artifacts
+[2025-07-30 08:54:08,428: INFO: common]: created directory at: artifacts/data_validation
+[2025-07-30 08:54:08,428: INFO: common]: created directory at: artifacts/data_transformation
+[2025-07-30 08:54:08,442: INFO: data_transformation]: Splited data into training and test sets
+[2025-07-30 08:54:08,442: INFO: data_transformation]: (1279, 12)
+[2025-07-30 08:54:08,443: INFO: data_transformation]: (320, 12)
+[2025-07-30 08:54:08,443: INFO: main]: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x
+[2025-07-30 08:54:08,443: INFO: main]: >>>>>> stage Model Trainer stage started <<<<<<
+[2025-07-30 08:54:08,444: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-07-30 08:54:08,444: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-07-30 08:54:08,445: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-07-30 08:54:08,445: INFO: common]: created directory at: artifacts
+[2025-07-30 08:54:08,445: INFO: common]: created directory at: artifacts/model_trainer
+[2025-07-30 08:54:08,454: INFO: model_trainer]: Model saved to model.joblib in artifacts/model_trainer
+[2025-07-30 08:54:08,455: INFO: main]: >>>>>> stage Model Trainer stage completed <<<<<<
 
 x==========x
