@@ -1,0 +1,10 @@
+artifact_location: file:///Users/saiaakash/Documents/mlops/DS_main/mlruns/0/models/m-874f48018f8e4ad68e83928ca3bfe969/artifacts
+creation_timestamp: 1753849654052
+experiment_id: '0'
+last_updated_timestamp: 1753849656234
+model_id: m-874f48018f8e4ad68e83928ca3bfe969
+model_type: null
+name: model
+source_run_id: 25f95d7191a8458d9f33e0b96bd9f80f
+status: 2
+status_message: null

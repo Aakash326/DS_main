@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/saiaakash/Documents/mlops/DS_main/mlruns/0/25f95d7191a8458d9f33e0b96bd9f80f/artifacts
+end_time: 1753849656236
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25f95d7191a8458d9f33e0b96bd9f80f
+run_name: learned-gnat-183
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753849654034
+status: 3
+tags: []
+user_id: saiaakash

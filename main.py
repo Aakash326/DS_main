@@ -3,6 +3,8 @@ from data_science.pipeline.stage_01_data_ingestion import DataIngestionTrainingP
 from data_science.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from data_science.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 from data_science.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
+from data_science.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
+
 from typing import Type
 
 def run_stage(stage_name: str, pipeline_class: Type):
@@ -21,3 +23,4 @@ if __name__ == '__main__':
     run_stage("Data Validation stage", DataValidationTrainingPipeline)
     run_stage("Data Transformation stage", DataTransformationTrainingPipeline)
     run_stage("Model Trainer stage", ModelTrainerTrainingPipeline)
+    run_stage("Model Evaluation stage", ModelEvaluationTrainingPipeline)

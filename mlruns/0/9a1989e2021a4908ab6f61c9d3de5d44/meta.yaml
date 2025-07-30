@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/saiaakash/Documents/mlops/DS_main/mlruns/0/9a1989e2021a4908ab6f61c9d3de5d44/artifacts
+end_time: 1753849725029
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9a1989e2021a4908ab6f61c9d3de5d44
+run_name: clumsy-trout-29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753849722926
+status: 3
+tags: []
+user_id: saiaakash

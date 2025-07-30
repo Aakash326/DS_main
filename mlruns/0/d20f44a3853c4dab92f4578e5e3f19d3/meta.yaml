@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/saiaakash/Documents/mlops/DS_main/mlruns/0/d20f44a3853c4dab92f4578e5e3f19d3/artifacts
+end_time: 1753849597611
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d20f44a3853c4dab92f4578e5e3f19d3
+run_name: grandiose-rook-453
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753849595246
+status: 3
+tags: []
+user_id: saiaakash
